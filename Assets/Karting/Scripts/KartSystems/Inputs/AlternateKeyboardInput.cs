@@ -23,7 +23,7 @@ namespace KartGame.KartSystems
         public KeyCode RightTurnKey = KeyCode.D;
         
         [Tooltip("Key for nitro boost (default: Space)")]
-        public KeyCode NitroKey = KeyCode.Space;
+        public KeyCode NitroKey = KeyCode.LeftShift;
 
         public override InputData GenerateInput()
         {
